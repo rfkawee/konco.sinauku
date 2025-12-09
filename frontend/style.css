@@ -1,0 +1,45 @@
+body { font-family: sans-serif; background: #f0f2f6; padding: 20px; }
+.container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.card { background: #eef; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+.tabs { display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+.tabs button { background: none; border: none; font-size: 16px; cursor: pointer; padding: 5px 10px; }
+.tabs button:hover { color: #ff4b4b; }
+.output-box { background: #fafafa; padding: 15px; border: 1px solid #ddd; margin-top: 10px; white-space: pre-wrap; }
+.chat-box { height: 200px; overflow-y: scroll; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; }
+.chat-message { margin: 5px 0; padding: 8px; border-radius: 5px; }
+.user-msg { background: #d1e7dd; text-align: right; }
+.ai-msg { background: #f8d7da; }
+.quiz-item { border: 1px solid #eee; padding: 10px; margin: 10px 0; }
+
+/* Tambahkan di file css anda */
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+.submit-btn:hover { background-color: #218838; }
+
+.quiz-item {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Styling untuk feedback jawaban */
+.correct-answer { background-color: #d4edda; border-color: #c3e6cb; }
+.wrong-answer { background-color: #f8d7da; border-color: #f5c6cb; }
+
+.explanation {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    font-size: 0.9em;
+}
